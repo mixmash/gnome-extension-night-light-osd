@@ -53,20 +53,4 @@ export default class Extension {
             null                    // max level, unused here
         );
     }
-
-        // // Simple OSD using Shell's built-in notification system
-        // const title = enabled ? 'Night Light enabled' : 'Night Light disabled';
-        // const iconFile = enabled
-        //     ? `${this._me.path}/icons/night-light-symbolic.svg`
-        //     : `${this._me.path}/icons/night-light-disabled-symbolic.svg`
-        //
-        // const gicon = Gio.icon_new_for_string(iconFile);
-        //
-        // Main.osdWindowManager.show(
-        //     -1,                  // monitor, -1 = primary
-        //     gicon,
-        //     title,
-        //     -1,                  // level -> -1 = no slider
-        //     -1                   // max level -> -1 = no slider
-        // );
 }
