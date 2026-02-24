@@ -1,0 +1,8 @@
+{
+  "name": "Night Light OSD",
+  "description": "Create an OSD to signal whether night light is switched on or off",
+  "uuid": "night-light-osd@gnome-extension.com",
+  "shell-version": [
+    "46"
+  ]
+}
