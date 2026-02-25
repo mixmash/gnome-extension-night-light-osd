@@ -6,6 +6,15 @@ This is a simple nicety or gives you a simple notification when external scripts
 ![enabled](./docs/images/night-light-enabled.png)
 ![disabled](./docs/images/night-light-disabled.png)
 
+## Installation
+
+```bash
+mkdir -p .local/share/gnome-shell/extensions/gnome-extensions enable night-light-osd@gnome-extension.com
+cd .local/share/gnome-shell/extensions/gnome-extensions enable night-light-osd@gnome-extension.com
+git clone https://github.com/mixmash/gnome-extension-night-light-osd
+gnome-extensions enable night-light-osd@gnome-extension.com
+```
+
 
 ## TODO / Warning
 - [ ] Currently the icons are used that are built into the standard Gnome theme, check the documentation to adapt to theme and maybe also add them to the repo to make it self-contained
